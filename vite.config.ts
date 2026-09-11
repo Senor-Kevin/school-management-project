@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: "/school-management-project/",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
